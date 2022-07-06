@@ -62,8 +62,8 @@ ADD on top:
 ```"homepage": "https://aaronsiim.github.io/aaron-resume",```
 
 ADD on Package.json file under scripts:
-```"predeploy": "npm run build",
-    "deploy": "gh-pages -d build" ```
+```"predeploy": "npm run build", ```
+``` "deploy": "gh-pages -d build" ```
 
 After commit
 ```npm run deploy```
