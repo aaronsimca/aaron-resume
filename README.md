@@ -55,3 +55,16 @@ Once all the formatting and data input is finalised, run `npm run build`. This w
 ##### Original Idea
 
 <a href="https://youtu.be/A5pxVctwI-E?t=2928">Inspiration from PAPA React JS Tutorial</a>
+
+##### gh-page deployment:
+
+ADD on top:
+```"homepage": "https://aaronsiim.github.io/aaron-resume",```
+
+ADD on Package.json file under scripts:
+```"predeploy": "npm run build",
+    "deploy": "gh-pages -d build" ```
+
+After commit
+```npm run deploy```
+Visit live app: https://aaronsiim.github.io/aaron-resume 
